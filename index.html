@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JAVASCRIPT</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <h1>Zenva Love</h1>
+    </div>
+    <div id="main">
+        <div class="lane" id="lane">
+            <div class="row">
+                <label>Gender</label>
+                <select class="inputOpt" id="gender">
+                    <option value="A">All</option>
+                    <option value="F">Female</option>
+                    <option value="M">Male</option>
+                </select>
+            </div>
+            <div class="row">
+                <label>Hobbies</label>
+                <input class="input" type="text" id="hobby" />
+            </div>
+            <div class="row">
+                <label>Age Range</label>
+                <input class="input" type="number" id="minAge" placeholder="at least 10" />
+                <input class="input" type="number" id="maxAge" placeholder="at most 30" />
+            </div>
+            <div class="row">
+                <button id="searchBtn">Search</button>
+            </div>
+        </div>
+
+        <!-- <div class="box"> -->
+            <div id="results" class="box">
+            </div>
+        <!-- </div> -->
+
+    </div>
+    <script type="text/javascript" src="js/data/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
